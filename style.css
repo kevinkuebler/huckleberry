@@ -19,7 +19,11 @@ header {
   padding: 0px 16px;
 }
 
-p > strong {
+.intro-chunk p {
+  max-width: 300px;
+}
+
+.intro-chunk > p > strong {
   color: hsl(160deg, 100%, 30%)
 }
 
